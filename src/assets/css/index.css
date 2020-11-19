@@ -1,0 +1,28 @@
+:root {
+  --heading-colour: DarkBlue;
+  --link-colour: MediumBlue;
+  --main-colour: #303030;
+  --main-bg-colour: WhiteSmoke;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: var(--main-colour);
+  background-color: var(--main-bg-colour);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-colour);
+}
+
+a:link, a:visited {
+  color: var(--link-colour);
+  text-decoration: none;
+}
