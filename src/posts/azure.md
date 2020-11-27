@@ -2,6 +2,7 @@
 title: "Static Site Hosting on Azure"
 subtitle: "In this post, I'm going to wask through deploying a static site to
 the Azure Cloud."
+image: "azure-logo.png"
 ---
 
 # Azure Static Site

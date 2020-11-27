@@ -3,6 +3,7 @@
   --link-colour: MediumBlue;
   --main-colour: #303030;
   --main-bg-colour: WhiteSmoke;
+  --header-bg-colour: rgb(232,232,232);
 }
 
 * {
@@ -13,9 +14,18 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--main-colour);
   background-color: var(--main-bg-colour);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header, footer {
+  background-color: var(--header-bg-colour);
+  height: 4rem;
+  padding: 2px 20px;
 }
 
 main {
@@ -29,4 +39,13 @@ h1, h2, h3, h4, h5, h6 {
 a:link, a:visited {
   color: var(--link-colour);
   text-decoration: none;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-list-image {
+  max-height: 70px;
 }

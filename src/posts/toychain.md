@@ -1,12 +1,13 @@
 ---
 title: "Toychain"
 subtitle: "A simple implemenation of a Blockchain"
+image: "toychain.png"
 ---
 
 # Creating a Blockchain in Javascript
 As a means to understanding the principles of how a Blockchain works, how
 better to do it than implementing one. We've chosen to implement our simple
-Blcokchain in Javascript. Our implementaion is `toychain`.
+Blockchain in Javascript. Our implementation is `toychain`.
 
 ## Overall Structure
 The `Blockchain` is a linked list of Blocks where the linkage is

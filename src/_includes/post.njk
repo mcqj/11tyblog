@@ -1,6 +1,8 @@
 ---
 layout: base
 ---
+{% if image %}
+  <img src="/assets/images/{{ image }}" class="post-image" >
+{% endif %}
 {{ data.title }}
 {{ content | safe }}
-

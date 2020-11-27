@@ -8,12 +8,21 @@ SiteTitle: JMQ's Tech Blog
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
-    <title>{{ SiteTitle }}</title>
+    <link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>{{ SiteTitle }}</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <h1><a href="/">{{ SiteTitle }}</a></h1>
+      </nav>
+    </header>
     <main>
-      <h1><a href="/">{{ SiteTitle }}</a></h1>
       {{ content | safe }}
     </main>
+    <footer>
+    </footer>
   </body>
 </html>
