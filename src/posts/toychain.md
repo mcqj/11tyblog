@@ -2,6 +2,8 @@
 title: "Toychain"
 subtitle: "A simple implemenation of a Blockchain"
 image: "toychain.png"
+draft: true
+date: 2020-12-01
 ---
 
 # Creating a Blockchain in Javascript

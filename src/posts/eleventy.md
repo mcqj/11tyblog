@@ -3,6 +3,8 @@ title: "Do we need another Static Site Generator?"
 subtitle: "In this post, I'm taking a look at Eleventy to see what it has to offer
 that might make it better than other SSGs"
 image: "eleventy.jpg"
+draft: false
+date: 2020-12-24
 ---
 
 # First Impressions of Eleventy
